@@ -1,0 +1,25 @@
+.slick-next {
+    right: 44%;
+    top: 32.5rem;
+
+}
+
+.slick-prev {
+    left: 44%;
+    transform: rotate(180deg);
+    top: 32rem;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 20px !important;
+    /* position: absolute;
+    z-index: 1; */
+    width: 1rem;
+    height: 1rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: "" !important;
+}
